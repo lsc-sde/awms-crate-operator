@@ -1,0 +1,8 @@
+replicas: 1
+image: lscsde/awms-crate-operator:latest
+nodeSelector: {}
+tolerations: []
+volumes: []
+volumeMounts: []
+env: []
+resources: {}
