@@ -11,7 +11,7 @@ jobs:
     uses: lsc-sde/lsc-sde/.github/workflows/docker-release.yaml@main
     with:
       imageName: awms-crate-operator
-      directory: products/sde/analytics-workspace-management/awms-crate-operator
+      directory: products/sde/analytics-datasource-management/awms-crate-operator
       platforms: '["amd64"]'
       yamlPath: awms_crate
     secrets: inherit
