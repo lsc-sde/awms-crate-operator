@@ -22,7 +22,7 @@ jobs:
     - buildandpush
     with:
       symver: ${{ needs.buildandpush.outputs.GitVersion_SemVer }}
-      directory: products/sde/analytics-workspace-management/awms-crate-operator
+      directory: products/sde/analytics-datasource-management/awms-crate-operator
       subdirectory: "/helm"
     secrets: inherit
 
