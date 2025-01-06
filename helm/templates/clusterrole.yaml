@@ -40,7 +40,7 @@ rules:
 
 - apiGroups: ["xlscsde.nhs.uk"]
   resources: ["analyticsdatasources"]
-  verbs: ["create", "delete"]
+  verbs: ["create", "delete", "update"]
 
 - apiGroups: ["xlscsde.nhs.uk"]
   resources: ["analyticscrates/status", "analyticscrates/scale"]
